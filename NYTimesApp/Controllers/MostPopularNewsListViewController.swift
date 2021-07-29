@@ -7,24 +7,34 @@
 
 import UIKit
 
-class MostPopularNewsListViewController: UIViewController {
-
+class MostPopularNewsListViewController: UIViewController
+    
+{
     @IBOutlet weak var tblViewNewsList:UITableView!
     let newsListViewModel = NewsListResultsViewModel()
-    
     var newsResult = [Result]() {
         didSet {
             DispatchQueue.main.async {
                 self.tblViewNewsList.reloadData()
             }
         }
-       
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+     setTableViewValues()
+     callAPIFunction()
+     
+    }
+}
+
+extension MostPopularNewsListViewController {
+    func setTableViewValues() {
         tblViewNewsList.rowHeight = UITableView.automaticDimension
         tblViewNewsList.estimatedRowHeight = 120
         tblViewNewsList.register(UINib(nibName: AppCells.newsListCell.getName(), bundle: nil), forCellReuseIdentifier: AppCells.newsListCell.getName())
+    }
+    func callAPIFunction() {
         if GeneralHandler().testConnection() {
             newsListViewModel.getMostPupularNewsFeed(section: "all-sections", period: 7){results in
                 guard let newsData = results else {
@@ -38,12 +48,9 @@ class MostPopularNewsListViewController: UIViewController {
         else{
             GeneralHandler().showAlert(controller: self, message: "Not connected to Internet")
         }
-     
     }
-    
-
 }
-
+//MARK:- Tableview delegate and datasource methods
 extension MostPopularNewsListViewController: UITableViewDelegate,UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         newsResult.count

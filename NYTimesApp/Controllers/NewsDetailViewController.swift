@@ -24,7 +24,6 @@ class NewsDetailViewController: UIViewController {
         lblPublishedDate.text = newsDetails?.publishedDate
         lblbyLine.text = newsDetails?.byline
         if let imageURL = (newsDetails?.media?.first?.mediaMetadata?.last)?.url
-        
         {
             self.imgNews.downloaded(from: URL(string: imageURL)!)
         }
