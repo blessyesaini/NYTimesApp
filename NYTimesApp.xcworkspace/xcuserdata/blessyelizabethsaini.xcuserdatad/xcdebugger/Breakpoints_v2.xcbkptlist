@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4BD4785E-6EA6-409D-B9ED-E5BEFA2DBBFF"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8B5989B9-1FF5-40CC-BF5D-FEFA4715FF5B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NYTimesAppTests/MostPopularNewsListViewControllerTest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "testTableViewCellHasNameLabel()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "909A6314-DF98-4A56-8536-2BC10EF61EFC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NYTimesApp/ViewModels/NewsListResultsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "getMostPupularNewsFeed(section:period:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F37102B0-337B-4AD6-B7B3-E2C1828E141C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NYTimesApp/ViewModels/NewsListResultsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "getMostPupularNewsFeed(section:period:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F37102B0-337B-4AD6-B7B3-E2C1828E141C - 44184a5bcbe93138"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NYTimesApp.NewsListResultsViewModel.getMostPupularNewsFeed(section: Swift.String, period: Swift.Int, completion: (Swift.Optional&lt;Swift.Array&lt;NYTimesApp.Result&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "NYTimesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/blessyelizabethsaini/Desktop/Apps/NYTimesApp/NYTimesApp/ViewModels/NewsListResultsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "165">
+               </Location>
+               <Location
+                  uuid = "F37102B0-337B-4AD6-B7B3-E2C1828E141C - ed0359d23f80ed62"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (NYTimesApp.ApiResponse) -&gt; () in NYTimesApp.NewsListResultsViewModel.getMostPupularNewsFeed(section: Swift.String, period: Swift.Int, completion: (Swift.Optional&lt;Swift.Array&lt;NYTimesApp.Result&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "NYTimesApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/blessyelizabethsaini/Desktop/Apps/NYTimesApp/NYTimesApp/ViewModels/NewsListResultsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "158">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
