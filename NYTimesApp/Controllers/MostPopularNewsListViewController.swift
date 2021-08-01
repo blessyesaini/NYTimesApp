@@ -19,7 +19,7 @@ class MostPopularNewsListViewController: UIViewController
             }
         }
     }
-    
+    //Mark: view life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
      setTableViewValues()
