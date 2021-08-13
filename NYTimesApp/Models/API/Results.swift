@@ -6,7 +6,7 @@
 //
 // To parse the JSON, add this file to your project and do:
 //
-//   let results = try? newJSONDecoder().decode(Results.self, from: jsonData)
+//   let results = try? newJSONDecoer().decode(Results.self, from: jsonData)
 
 import Foundation
 
