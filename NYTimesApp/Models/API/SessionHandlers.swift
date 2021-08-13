@@ -44,7 +44,7 @@ class SessionHandlers: NSObject {
             if method == .post || method == .put {
                 
                 if let params = parameters{
-                    print("Parameters:", params)
+                    print("Paraeters:", params)
                     
                     if let jsonDatas = try? JSONSerialization.data(withJSONObject: params as Any, options: JSONSerialization.WritingOptions.prettyPrinted){
                         serviceRequest.httpBody = jsonDatas
